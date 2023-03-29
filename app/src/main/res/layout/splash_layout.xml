@@ -4,46 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:id="@+id/txtTextoA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto A"
-        android:textColor="#FF5722"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lixeirainicio"
+        tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/txtTextoB"
+    <ProgressBar
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/prbSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Texto B"
-        android:layout_toRightOf="@+id/txtTextoA"
-        android:textColor="#FFEB3B"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/txtTextoC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto C"
-        android:layout_below="@+id/txtTextoA"
-        android:textColor="#9C27B0"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_below="@+id/txtTextoB"
-        android:layout_toRightOf="@+id/txtTextoC"
-        android:id="@+id/txtTextoD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto D"
-        android:textColor="#009688"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:layout_below="@+id/imgLogo" />
 
 </RelativeLayout>
