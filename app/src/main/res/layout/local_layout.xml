@@ -7,13 +7,13 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:padding="20dp"
-    tools:context=".SobreActivity">
+    tools:context=".LocalActivity">
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="400dp"
-        android:layout_height="600dp"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
         android:backgroundTint="#E6E6E5"
-        app:cardCornerRadius="30dp">
+        app:cardCornerRadius="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,19 +25,20 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="20sp"
-                android:text="Sobre"
+                android:text="Coffee"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:id="@+id/sobreTitulo"/>
+                android:id="@+id/cafeTitulo"/>
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/smartCities"
-                android:id="@+id/sobreImg"
+                android:src="@drawable/lixeirainicio"
+                android:id="@+id/cafeImg"
                 />
 
             <TextView
@@ -45,11 +46,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="22sp"
-                android:text="O desenvolvimento de Cidades Inteligentes pelo mundo é uma consequência da integração de tecnologias de informação e comunicação com o objetivo de melhorar a eficiência dos serviços e atender às necessidades da população, incorporando essas tecnologias com diferentes sistemas da cidade. Como resultado, diversos setores podem ser impactados, dentre eles: serviços governamentais, segurança pública, mobilidade urbana, energia, água, e gestão de resíduos. \n Por aqui, vamos mostrar como realizar a coleta de resíduos (lixo), de forma mais sustentável e moderna, mostrando a localização dos Ecopontos, bem como as lixeiras subterrâneas na cidade."
+                android:text="Uma massa macia e fofinha, molhadinha no ponto certo, generosamente recheada com um creme bavariano de alta qualidade fazem desse o melhor Donuts do mundo!"
                 android:textColor="#000"
-                android:id="@+id/sobreDescricao"/>
+                android:id="@+id/cafeDescricao"/>
 
-                <LinearLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
