@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="22sp"
-                android:text="O desenvolvimento de Cidades Inteligentes pelo mundo é uma consequência da integração de tecnologias de informação e comunicação com o objetivo de melhorar a eficiência dos serviços e atender às necessidades da população, incorporando essas tecnologias com diferentes sistemas da cidade. Como resultado, diversos setores podem ser impactados, dentre eles: serviços governamentais, segurança pública, mobilidade urbana, energia, água, e gestão de resíduos. \n Por aqui, vamos mostrar como realizar a coleta de resíduos (lixo), de forma mais sustentável e moderna, mostrando a localização dos Ecopontos, bem como as lixeiras subterrâneas na cidade."
+                android:text=" O desenvolvimento de Cidades Inteligentes pelo mundo é uma consequência da integração de tecnologias de informação e comunicação com o objetivo de melhorar a eficiência dos serviços e atender às necessidades da população, incorporando essas tecnologias com diferentes sistemas da cidade. Como resultado, diversos setores podem ser impactados, dentre eles: serviços governamentais, segurança pública, mobilidade urbana, energia, água, e gestão de resíduos. \n Por aqui, vamos mostrar como realizar a coleta de resíduos (lixo), de forma mais sustentável e moderna, mostrando a localização dos Ecopontos, bem como as lixeiras subterrâneas na cidade."
                 android:textColor="#000"
                 android:id="@+id/sobreDescricao"/>
 
