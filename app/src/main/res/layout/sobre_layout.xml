@@ -36,7 +36,7 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:src="@drawable/smartCities"
+                android:src="@drawable/smart"
                 android:id="@+id/sobreImg"
                 />
 

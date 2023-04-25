@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center_horizontal|center_vertical"
     android:background="#D5F6D7"
     tools:context=".SplashActivity">
@@ -21,7 +22,21 @@
         android:layout_marginTop="10dp"
         android:id="@+id/prbSplash"
         android:layout_width="wrap_content"
+        android:layout_marginRight="90dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgLogo" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnEntrarSplash"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Seja Bem-Vindo" />
+    </LinearLayout>
+
+</LinearLayout>
